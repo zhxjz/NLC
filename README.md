@@ -2,8 +2,10 @@
 
 # PROBLEM SETTING.
 
-Given a pair of long time series $(X,Y)$, a threshold $\theta$, the length constraint $[L_{min},L_{max}]$ and the delay constraint $[\tau_{min},\tau_{max}]$, our goal is to find all correlated time window pairs $\mathcal{CP}=\{CP_1,CP_2,\cdots, CP_{|\mathcal{CP}|}\}$ in the time series pair. 
-Each $CP_i=<s_i,l_i,\tau_i>$ satisfies $$I(X(s_i,l_i),Y(s_i+\tau_i,l_i))\geq \theta$$.
+Given a pair of long time series ![](https://render.githubusercontent.com/render/math?math=(X,Y)), a threshold ![](https://render.githubusercontent.com/render/math?math=\theta) , the length constraint ![](https://render.githubusercontent.com/render/math?math=[L_{min},L_{max}]) and the delay constraint  ![](https://render.githubusercontent.com/render/math?math=[\tau_{min},\tau_{max}]), 
+our goal is to find all correlated time window pairs ![](https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BCP%7D=%5C%7BCP_1,CP_2,%5Ccdots,%20CP_%7B%7C%5Cmathcal%7BCP%7D%7C%7D%5C%7D) in the time series pair. 
+Each ![](https://render.githubusercontent.com/render/math?math={CP_i=<s_i,l_i,\tau_i>}) satisfies 
+![](https://render.githubusercontent.com/render/math?math=I(X(s_i,l_i),Y(s_i%2B\tau_i,l_i))\geq\theta).
 
 # OVERVIEW.
 
