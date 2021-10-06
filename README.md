@@ -7,7 +7,7 @@ Each $CP_i=<s_i,l_i,\tau_i>$ satisfies $$I(X(s_i,l_i),Y(s_i+\tau_i,l_i))\geq \th
 
 # OVERVIEW.
 
-![overview](https://github.com/zhxjz/NLC/pics/overview.PNG)
+<img src="https://github.com/zhxjz/NLC/pics/overview.PNG" height="300"/>
 
 # CODE.
 
