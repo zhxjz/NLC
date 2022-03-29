@@ -19,13 +19,13 @@ and the delay constraint  ![](https://render.githubusercontent.com/render/math?m
 
 Find all correlated time window pairs ![](https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BCP%7D=%5C%7BCP_1,CP_2,%5Ccdots,%20CP_%7B%7C%5Cmathcal%7BCP%7D%7C%7D%5C%7D) in the time series pair, 
 where each ![](https://render.githubusercontent.com/render/math?math={CP_i=<s_i,l_i,\tau_i>}) satisfies 
-![](https://render.githubusercontent.com/render/math?math=I(X(s_i,l_i),Y(s_i%2B\tau_i,l_i) \geq\theta),
+![](https://render.githubusercontent.com/render/math?math={I(X(s_i,l_i),Y(s_i%2B\tau_i,l_i)\geq\theta}),
 ![](https://render.githubusercontent.com/render/math?math=l_i\in[L_{min},L_{max}]),
 ![](https://render.githubusercontent.com/render/math?math=\tau_i\in[\tau_{min},\tau_{max}]).
 
 # Algorithm Overview
 
-<img src="https://github.com/zhxjz/NLC/blob/main/pics/overview.PNG" height="300"/>
+<img src="https://github.com/zhxjz/NLC/blob/main/pics/overview.PNG"/>
 
 The specific algorithm details are explained in Sec 4 and Sec 5 of our paper.
 
